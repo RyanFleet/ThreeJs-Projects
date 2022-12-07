@@ -1,0 +1,28 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main {
+  position: absolute;
+  /* grid-template-columns: repeat(12,1fr); */
+}
+p, h3, h1, th, audio {
+  color: #f8f8f880;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 24pt;
+}
+
